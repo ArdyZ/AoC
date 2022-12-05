@@ -3,9 +3,7 @@ import os
 def readNumbers(path):
     # read as string
     data = readStrings(path)
-    
-
-    
+    # convert to int
     data = [int(i) for i in data]
     return data
 
